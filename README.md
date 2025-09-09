@@ -3,7 +3,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY_NC_SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 <a href="http://incompleteideas.net/book/the-book.html">
-  <img src="assets/RL_book_cover.jpg" align="right" style="height:5em;float: right">
+  <img src="assets/RL_book_cover.jpg" align="right" style="height:8em;float: right">
 </a>
 
 __Under development!__
@@ -23,9 +23,9 @@ TODO
 
 ## License
 
+Introduction to Reinforcement Learning &copy; 2025 Michael Hahsler and others is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
   <img src="assets/by-nc-sa.png"  style="height:2em;float: ledt">
 </a>
-Introduction to Reinforcement Learning &copy; 2025 Michael Hahsler and others is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 For questions please contact [Michael Hahsler](http://michael.hahsler.net).
