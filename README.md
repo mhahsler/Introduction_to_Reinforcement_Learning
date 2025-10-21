@@ -25,12 +25,12 @@ popular textbook:
 | 3 | 4: Dynamic Programming | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture03.pptx) | - | 
 | 4 | 5: Monte Carlo Methods | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture04.pptx) | - | 
 |  |  TODO | | - | 
-| 5 | 4: Temporal-Difference Learning | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture.pptx) | - | 
-| 6 | 9-10: On-policy Prediction and Control using Approximation | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture.pptx) | - | 
-| 7 | 12: Eligibility Traces | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture.pptx) | - | 
-| 9 | 13: Policy Gradient Methods | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture.pptx) | - | 
-| 10 | X: Deep Reinforcement Learning | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture.pptx) | - | 
-| 11 | X: Current Applications | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture.pptx) | - | 
+| 5 | 6: Temporal-Difference Learning | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture05.pptx) | - | 
+| 6 | 9-10: On-policy Prediction and Control using Approximation | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture06.pptx) | - | 
+| 7 | 12: Eligibility Traces | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture07.pptx) | - | 
+| 9 | 13: Policy Gradient Methods | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture08.pptx) | - | 
+| 10 | X: Deep Reinforcement Learning | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture09.pptx) | - | 
+| 11 | X: Current Applications | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture10.pptx) | - | 
 
 
 ## License
