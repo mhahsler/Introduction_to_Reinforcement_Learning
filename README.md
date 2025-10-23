@@ -8,12 +8,19 @@
 
 __Under development!__
 
-The course material follows the 
-popular textbook:
+This repository contains lecture material, simple Python code examples, and assignments for the course CS 5/73XX Reinforcement LEarning taught by [Michael Hahsler](https://michael.hahsler.net/) at the [Department of Computer Science at SMU](https://www.smu.edu/Lyle/Academics/Departments/CS).
+
+The code examples cover several chapters of the textbook 
 
 > Richard S. Sutton, Andrew G. Barto,
 > [_Reinforcement Learning: An Introduction,_](http://incompleteideas.net/book/the-book.html) 
 > 2nd edition, MIT Press, Cambridge, MA, 2018.
+
+Studying the material requires
+
+* Python programming skills.
+* Knowlege of AI basics (how intelligent agents work).
+* Knowlege of how to use machine learning techniques. 
 
 
 ## Content
