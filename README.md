@@ -45,6 +45,6 @@ Studying the material requires
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
   <img src="assets/by-nc-sa.png" align="left" style="height:2em;float: left">
 </a>
-Introduction to Reinforcement Learning &copy; 2025 Michael Hahsler and others is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-For questions please contact [Michael Hahsler](http://michael.hahsler.net).
+Introduction to Reinforcement Learning &copy; 2025 Michael Hahsler and others is licensed under 
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
