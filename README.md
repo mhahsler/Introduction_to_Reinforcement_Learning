@@ -23,7 +23,7 @@ Studying the material requires
 * Knowlege of how to use machine learning techniques. 
 
 
-## Content
+## Tabel of Contents
 
 | Module | Book Chapter | Lecture Slides | Code |
 | :----- | :----------- | :------------: | :--: |
