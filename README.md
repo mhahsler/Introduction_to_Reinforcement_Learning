@@ -29,18 +29,18 @@ Studying the material requires
 | :----- | :----------- | :------------: | :--: |
 | 1 | 1: Introduction | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter01.pptx) | - | 
 | 2 | 3: Finite Markov Decision Processes | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter03.pptx) | - | 
-|  |  Part I: Tabular Methods | |  | 
+|  |  **Part I: Tabular Methods** | |  | 
 | 3 | 4: Dynamic Programming | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter04.pptx) | - | 
 | 4 | 5: Monte Carlo Methods | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter05.pptx) | - | 
 | 5 | 6: Temporal-Difference Learning | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter06.pptx) | - | 
 | - | 7: n-step Bootstrapping | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter07.pptx) | - | 
 | - | 8: Planning and Learning with Tabular Methods | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter08.pptx) | - | 
-|  |  Part II: Approximate Solution Methods | |  | 
-|  |  Rest is still TODO | | - | 
+|  |  **Part II: Approximate Solution Methods** | |  | 
+|  |  _Rest is still TODO_ | | - | 
 | 6 | 9-10: Prediction and Control using Approximation | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter09.pptx) | - | 
 | 7 | 12: Eligibility Traces | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pptx) | - | 
 | 9 | 13: Policy Gradient Methods | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pptx) | - | 
-|  |  Modern Methods | |  | 
+|  |  **Modern Methods** | |  | 
 | 10 | X: Deep Reinforcement Learning | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_ChapterX1.pptx) | - | 
 | 11 | X: Current Applications | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_ChapterX2.pptx) | - | 
 
