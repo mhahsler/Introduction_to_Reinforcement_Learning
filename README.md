@@ -8,7 +8,7 @@
 
 __Under development!__
 
-This repository contains lecture material, simple Python code examples, and assignments for the course CS 5/73XX Reinforcement LEarning taught by [Michael Hahsler](https://michael.hahsler.net/) at the [Department of Computer Science at SMU](https://www.smu.edu/Lyle/Academics/Departments/CS).
+This repository contains lecture material, simple Python code examples, and assignments for the course CS 5/73XX Reinforcement Learning taught by [Michael Hahsler](https://michael.hahsler.net/) at the [Department of Computer Science at SMU](https://www.smu.edu/Lyle/Academics/Departments/CS).
 
 The code examples cover several chapters of the textbook 
 
@@ -36,10 +36,10 @@ Studying the material requires
 | - | 7: n-step Bootstrapping | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter07.pptx) | - | 
 | - | 8: Planning and Learning with Tabular Methods | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter08.pptx) | - | 
 |  |  **Part II: Approximate Solution Methods** | |  | 
-|  |  _Rest is still TODO_ | | - | 
 | 6 | 9-10: Prediction and Control using Approximation | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter09.pptx) | - | 
 | 7 | 12: Eligibility Traces | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pptx) | - | 
 | 9 | 13: Policy Gradient Methods | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pptx) | - | 
+|  |  _Rest is still TODO_ | | - | 
 |  |  **Modern Methods** | |  | 
 | 10 | X: Deep Reinforcement Learning | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_ChapterX1.pptx) | - | 
 | 11 | X: Current Applications | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_ChapterX2.pptx) | - | 
@@ -51,5 +51,5 @@ Studying the material requires
   <img src="assets/by-nc-sa.png" align="left" style="height:2em;float: left">
 </a>
 
-Introduction to Reinforcement Learning &copy; 2025 Michael Hahsler and others is licensed under 
+Introduction to Reinforcement Learning &copy; 2025 [Michael Hahsler](http://michael.hahsler.net) and others is licensed under 
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
