@@ -16,6 +16,12 @@ The code examples cover several chapters of the textbook
 > [_Reinforcement Learning: An Introduction,_](http://incompleteideas.net/book/the-book.html) 
 > 2nd edition, MIT Press, Cambridge, MA, 2018.
 
+Deep Reinforcement Learning (DRL) is based on the review paper
+
+> Vincent François-Lavet, Peter Henderson, Riashat Islam, Marc G. Bellemare and Joelle Pineau, 
+> [An Introduction to Deep Reinforcement Learning,](https://arxiv.org/abs/181) 
+> _Foundations and Trends in Machine Learning,_ 11:3-4, pp 219-354. http://dx.doi.org/10.1561/2200000071, 2018.
+
 Studying the material requires
 
 * Python programming skills.
@@ -41,7 +47,7 @@ Studying the material requires
 | 9 | 13: Policy Gradient Methods | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pptx) | - | 
 |  |  _Rest is still TODO_ | | - | 
 |  |  **Modern Methods** | |  | 
-| 10 | X: Deep Reinforcement Learning | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_ChapterX1.pptx) | - | 
+| 10 | DRL: Deep Reinforcement Learning | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_ChapterX1.pptx) | - | 
 | 11 | X: Current Applications | PDF , [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_ChapterX2.pptx) | - | 
 
 
