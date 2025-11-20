@@ -19,7 +19,7 @@ The code examples cover several chapters of the textbook
 Deep Reinforcement Learning (DRL) is based on the review paper
 
 > Vincent François-Lavet, Peter Henderson, Riashat Islam, Marc G. Bellemare and Joelle Pineau, 
-> [An Introduction to Deep Reinforcement Learning,](https://arxiv.org/abs/181) 
+> [An Introduction to Deep Reinforcement Learning,](https://arxiv.org/abs/1811.12560) 
 > _Foundations and Trends in Machine Learning,_ 11:3-4, pp 219-354. http://dx.doi.org/10.1561/2200000071, 2018.
 
 Studying the material requires
