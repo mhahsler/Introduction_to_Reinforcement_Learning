@@ -6,7 +6,8 @@
   <img src="assets/RL_book_cover.jpg" align="right" style="height:15em;float: right">
 </a>
 
-__Under development!__
+__Under development!__ Caution, this page is currently incomlete and there may be 
+missing files and mistakes in the provided materials.
 
 This repository contains lecture material, simple Python code examples, and assignments for the course CS 5/73XX Reinforcement Learning taught by [Michael Hahsler](https://michael.hahsler.net/) at the [Department of Computer Science at SMU](https://www.smu.edu/Lyle/Academics/Departments/CS).
 
@@ -26,7 +27,7 @@ Studying the material requires
 
 * Python programming skills.
 * Knowlege of AI basics (how intelligent agents interact with an environment).
-* Knowlege of how to use machine learning techniques. 
+* Knowlege of how to use machine learning techniques including deep learning. 
 * Basic knowlege of probability and statistics, linear algebra, and calculus.
 
 ## Table of Contents
