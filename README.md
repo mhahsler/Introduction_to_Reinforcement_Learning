@@ -46,9 +46,8 @@ Studying the material requires
 | 6 | 9-10: Prediction and Control using Approximation | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter09.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter09.pptx) | - | 
 | 7 | 12: Eligibility Traces | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pptx) | - | 
 | 9 | 13: Policy Gradient Methods | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pptx) | - | 
-|  |  _Rest is still TODO_ | | - | 
 |  |  **Modern Methods** | |  | 
-| 10 | DRL: Deep Reinforcement Learning | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_ChapterDRL.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_ChapterDRL.pptx) | - | 
+| 10 | DRL: Deep Reinforcement Learning | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pptx) | - | 
 | 11 | X: Current Applications | - | - | 
 
 
