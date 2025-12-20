@@ -26,9 +26,9 @@ Deep Reinforcement Learning (DRL) is based on the review paper
 Studying the material requires
 
 * Python programming skills.
-* Knowlege of AI basics (how intelligent agents interact with an environment).
-* Knowlege of how to use machine learning techniques including deep learning. 
-* Basic knowlege of probability and statistics, linear algebra, and calculus.
+* Knowledge of AI basics (how intelligent agents interact with an environment).
+* Knowledge of how to use machine learning techniques including deep learning. 
+* Basic knowledge of probability and statistics, linear algebra, and calculus.
 
 ## Table of Contents
 
