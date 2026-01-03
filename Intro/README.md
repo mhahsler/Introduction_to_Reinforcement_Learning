@@ -3,6 +3,8 @@
 
 ## Contents
 
+* HOWTO: [Setup the Gymnasium RL Environment](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Intro/Setup_Gymnasium.ipynb)
+
 * Example: [Lunar Lander Environment](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Intro/lunar_lander.ipynb): Build a reflex-based Agent using the Gymnasium library.
 
 ## License
