@@ -35,7 +35,7 @@ Studying the material requires
 | Module | Book Chapter | Lecture Slides | Code |
 | :----- | :----------- | :------------: | :--: |
 | 1 | 1: Introduction | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter01.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter01.pptx) | [Code](Intro) | 
-| 2 | 3: Finite Markov Decision Processes | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter03.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter03.pptx) | - | 
+| 2 | 3: Finite Markov Decision Processes | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter03.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter03.pptx) | [Code](MDP) | 
 |  |  **Part I: Tabular Methods** | |  | 
 | 3 | 4: Dynamic Programming | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter04.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter04.pptx) | [Code](DP)  | 
 | 4 | 5: Monte Carlo Methods | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter05.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter05.pptx) | - | 
