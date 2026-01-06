@@ -6,7 +6,7 @@
 * [Value Iteration and Policy Iteration for the L-maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DP/L-Maze.ipynb). This notebook investigates the behavior of the algorithms.
 
 ## Model and Algorithm Implementation (from scratch)
-* [Modeling Tic-Tac-Toe as an MDP and applying Value Iteration.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DP/tictactoe_VI.ipynb). Defines the MDP from scratch and applies value iteration to find the optimal policy to play the game.
+* [Modeling Tic-Tac-Toe as an MDP and applying Value Iteration](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DP/tictactoe_VI.ipynb). Defines the MDP from scratch and applies value iteration to find the optimal policy to play the game.
 
 ## License
 &copy; 2025 [Michael Hahsler](http://michael.hahsler.net). 
