@@ -10,6 +10,8 @@
 # The values are ' ', 'x', 'o'. 
 
 import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
 
 def empty_board():
     """create and empty board"""
@@ -73,9 +75,6 @@ def show_board_text(board):
     """display the board"""
     b = np.array(board).reshape((3,3))
     print(b)
-
-import matplotlib.pyplot as plt
-from matplotlib.colors import ListedColormap
 
 def show_board(board, help = True, dpi = 40, colors = {' ': 'white', 'x': 'red', 'o': 'black'}):
     """Show the tic-tac-toe-board. help adds the array index, dpi changes the size and
