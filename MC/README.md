@@ -1,7 +1,6 @@
 <!-- #region -->
 # Chapters 5: Monte Carlo Methods
 
-## How to Define an MDP
 * [Monte Carlo prediction and control for the 4x3 grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/MC/4x3_grid_world_MC.ipynb).
 
 
