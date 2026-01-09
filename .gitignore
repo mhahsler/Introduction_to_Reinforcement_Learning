@@ -1,0 +1,15 @@
+.env
+
+__pycache__
+*_solution.*
+*-solution.*
+*_sol.*
+*-sol.*
+WORK_*
+
+~$*
+*.swp
+video_*
+
+Intro/gymnasium_display_recorder.py
+MC/gymnasium_display_recorder.py
