@@ -15,32 +15,28 @@ os.environ['PYVIRTUALDISPLAY_DISPLAYFD'] = '0'
 display = Display(visible=0, size=(640, 480))
 display.start()
 
-def gym_make(env_name, run_name, render_fps=30):
-    """
-    Create a Gym environment with video recording enabled.
+def VideoWrapper(env, run_name, render_fps=30):
+    """"Wrap an environment with a video recorder."""
     
-    :param env_name: Description
-    :param video_folder: Description
-    :param render_fps: Description
-    """
-    env = gym.make(env_name, render_mode="rgb_array")
     env.metadata['render_fps'] = render_fps
-
     env = RecordVideo(env, 
                       video_folder='./videos', 
                       episode_trigger=lambda episode_id: True,
                       name_prefix=f'video_{run_name}')
     
-    #env.reset()
     return env
 
 def show(run_name, episode_id=0):
     """
-    Display the recorded video in a Jupyter notebook.
+    Display the recorded video in a Jupyter notebook. Important note: close the environment before calling show!
     
     :param video_folder: Description
     """
-    video = io.open(glob.glob(f'./videos/video_{run_name}*{episode_id}.mp4')[0], 'r+b').read()
+    file = glob.glob(f'./videos/video_{run_name}*{episode_id}.mp4')
+    if len(file)<1:
+        raise RuntimeError("No video found! Did you close the environment with 'env.close()'?")
+    
+    video = io.open(file[0], 'r+b').read()
     encoded = base64.b64encode(video)
     ipythondisplay.display(HTML(data='''
         <video width="640" height="480" controls>
