@@ -19,6 +19,13 @@ def VideoWrapper(env, run_name, render_fps=30):
     """"Wrap an environment with a video recorder."""
     
     env.metadata['render_fps'] = render_fps
+    
+    files = glob.glob(f'./videos/video_{run_name}*.mp4')
+    if len(files):
+        print("Videos already exist, I remove them first!")
+        for f in files:
+            os.remove(f)
+    
     env = RecordVideo(env, 
                       video_folder='./videos', 
                       episode_trigger=lambda episode_id: True,
@@ -26,17 +33,27 @@ def VideoWrapper(env, run_name, render_fps=30):
     
     return env
 
-def show(run_name, episode_id=0):
+
+def show(env, episode_id=None):
     """
-    Display the recorded video in a Jupyter notebook. Important note: close the environment before calling show!
+    Display the last recorded episode video in a Jupyter notebook. Important note: close the environment before calling show!
     
     :param video_folder: Description
     """
-    file = glob.glob(f'./videos/video_{run_name}*{episode_id}.mp4')
-    if len(file)<1:
-        raise RuntimeError("No video found! Did you close the environment with 'env.close()'?")
     
-    video = io.open(file[0], 'r+b').read()
+    # make sure files are written
+    env.close()
+    
+    if episode_id is None:
+        episode_id=env.episode_id
+    
+    file = glob.glob(f'./videos/{env.name_prefix}-episode-{episode_id}.mp4')
+    if len(file)<1:
+        raise RuntimeError("No video found!")
+    
+    file = file[0]
+    print (f"Showing: {file}")
+    video = io.open(file, 'r+b').read()
     encoded = base64.b64encode(video)
     ipythondisplay.display(HTML(data='''
         <video width="640" height="480" controls>
