@@ -48,7 +48,7 @@ Studying the material requires
 | 7 | 12: Eligibility Traces | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pptx) | - | 
 | 9 | 13: Policy Gradient Methods | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pptx) | - | 
 |  |  **Modern Methods** | |  | 
-| 10 | DRL: Deep Reinforcement Learning | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pptx) | - | 
+| 10 | DRL: Deep Reinforcement Learning | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pptx) | [Code](DRL) | 
 | 11 | X: Current Applications | - | - | 
 
 
