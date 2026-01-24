@@ -1,7 +1,7 @@
 <!-- #region -->
 # Chapters 9-10: Prediction and Control using Approximation
 
-* Example: [Prediction and Control with linear approximation for a simple grid world (no walls).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/grid_world_approximation.ipynb).
+* Example: [Prediction and Control with linear approximation for a simple grid world (no walls).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/simple_grid_world_approximation.ipynb)
 
 
 ## License
