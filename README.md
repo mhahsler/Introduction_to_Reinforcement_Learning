@@ -44,7 +44,7 @@ Studying the material requires
 | - | 7: n-step Bootstrapping | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter07.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter07.pptx) | - | 
 | - | 8: Planning and Learning with Tabular Methods | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter08.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter08.pptx) | - | 
 |  |  **Part II: Approximate Solution Methods** | |  | 
-| 6 | 9-10: Prediction and Control using Approximation | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter09.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter09.pptx) | - | 
+| 6 | 9-10: Prediction and Control using Approximation | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter09.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter09.pptx) | [Code](Approximation) | 
 | 7 | 12: Eligibility Traces | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pptx) | - | 
 | 9 | 13: Policy Gradient Methods | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pptx) | - | 
 |  |  **Modern Methods** | |  | 
