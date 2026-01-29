@@ -9,7 +9,9 @@
 * Example: [Linear approximation for the L-Maze.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/L_maze_approximation.ipynb)
 
 ## Advanced Feature Construction
-* Example: [Control with linear approximation and Fourier basis features.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features.ipynb)
+* Example: [Control with linear approximation and Fourier basis features (4x3 Gridworld).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features.ipynb)
+* Example: [Control with linear approximation and Fourier basis features (L-Maze).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features_L_maze.ipynb)
+
 
 
 ## License
