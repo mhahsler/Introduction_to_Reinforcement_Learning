@@ -1,8 +1,8 @@
 <!-- #region -->
 # Chapters 4: Dynamic Programming
 
-## How to Define an MDP
-* Example: [Define an MDP model for the 4x3 grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/MDP/4x3_grid_world_MDP.ipynb). Defines the MDP from scratch.
+## Examples
+* [Define an MDP model for the 4x3 grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/MDP/4x3_grid_world_MDP.ipynb). Defines the MDP from scratch.
 
 
 ## License
