@@ -51,6 +51,12 @@ Studying the material requires
 | 10 | DRL: Deep Reinforcement Learning | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pptx) | [Code](DRL) | 
 | 11 | X: Current Applications | - | - | 
 
+## HOWTOs
+* How to [debug in Jupyer Notebooks](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/debugging_in_notebooks.ipynb)
+* How to [profile Python code](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/profiling_code.ipynb) to improve runtime.
+* How to [make charts with mathplotlib and tables with pandas](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/charts_and_tables.ipynb)
+* How to [use random numbers and arrays in numpy](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/random_numbers_and_arrays.ipynb)
+
 
 ## License
 
