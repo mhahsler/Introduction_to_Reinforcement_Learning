@@ -5,8 +5,11 @@
 * [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) 
 * [CleanRL](https://github.com/vwxyzjn/cleanrl)
 
-## Examles
-* [Lunar Lander with DRL](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQL_Example.ipynb)
+## Examples
+* [pytorch - Reinforcement Learning (DQN) Tutorial](https://docs.pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
+* [Lunar Lander with DRL (Baseline 3)](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQL_Example.ipynb)
+* [Lunar Lander with DNQ from scratch](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQL_Example.ipynb)
+DRL/DQL_from_scratch_Example.ipynb
 
 
 ## License
