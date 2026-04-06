@@ -4,6 +4,7 @@
 ## Introduction
 * Explanation: What is the [on-Policy State Distribution](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/4x3_grid_world_on_policy_distribution.ipynb)
 * Example: [Prediction and Control with linear approximation for a simple grid world (no walls).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/simple_grid_world_approximation.ipynb)
+  Note: This contains the construction of state-action features.
 
 ## Examples Where Simple Linear Features Fail
 * [Linear approximation for the 4x3 Grid World.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/4x3_grid_world_approximation.ipynb)
