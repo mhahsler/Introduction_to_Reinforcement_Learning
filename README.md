@@ -10,7 +10,7 @@
 __Under development!__ Caution, this page is currently incomlete and there may be 
 missing files and mistakes in the provided materials.
 
-This repository contains lecture material, simple Python code examples, and assignments for the course CS 5/73XX Reinforcement Learning taught by [Michael Hahsler](https://michael.hahsler.net/) at the [Department of Computer Science at SMU](https://www.smu.edu/Lyle/Academics/Departments/CS).
+This repository contains lecture material, simple Python code examples, and assignments for the course CS 5/7329 Reinforcement Learning taught by [Michael Hahsler](https://michael.hahsler.net/) at the [Department of Computer Science at SMU](https://www.smu.edu/Lyle/Academics/Departments/CS).
 
 The code examples cover several chapters of the textbook 
 
