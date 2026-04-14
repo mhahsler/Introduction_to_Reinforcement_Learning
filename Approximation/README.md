@@ -3,7 +3,7 @@
 
 ## Introduction
 * Explanation: What is the [on-Policy State Distribution](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/4x3_grid_world_on_policy_distribution.ipynb)
-* Example: Implementation of state-action fearures Semi-gradient TD(0), Semi-gradient Sarsa. 
+* Example: Implementation of state-action features Semi-gradient TD(0), Semi-gradient Sarsa. 
 [Prediction and Control with approximation using linear features for a simple grid world (no walls).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/simple_grid_world_approximation.ipynb)
 
 ## Examples Where Simple Linear Features Fail
