@@ -3,16 +3,16 @@
 
 ## Introduction
 * Explanation: What is the [on-Policy State Distribution](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/4x3_grid_world_on_policy_distribution.ipynb)
-* Example: [Prediction and Control with linear approximation for a simple grid world (no walls).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/simple_grid_world_approximation.ipynb)
-  Note: This contains the construction of state-action features.
+* Example: Implementation of state-action fearures Semi-gradient TD(0), Semi-gradient Sarsa. 
+[Prediction and Control with approximation using linear features for a simple grid world (no walls).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/simple_grid_world_approximation.ipynb)
 
 ## Examples Where Simple Linear Features Fail
-* [Linear approximation for the 4x3 Grid World.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/4x3_grid_world_approximation.ipynb)
-* [Linear approximation for the L-Maze.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/L_maze_approximation.ipynb)
+* [Linear approximation with linear features for the 4x3 Grid World.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/4x3_grid_world_approximation.ipynb)
+* [Linear approximation with linear features for the L-Maze.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/L_maze_approximation.ipynb)
 
 ## Advanced Feature Construction
-* [Control with linear approximation and Fourier basis features (4x3 Gridworld).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features.ipynb)
-* [Control with linear approximation and Fourier basis features (L-Maze).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features_L_maze.ipynb)
+* [Linear approximation with Fourier basis features (4x3 Gridworld).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features.ipynb)
+* [Linear approximation with Fourier basis features (L-Maze).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features_L_maze.ipynb)
 
 ## Exercise
 * [Value Function Approximation for the Lunar Lander Problem using Tile Coding](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/assignment-lunar_lander_Approximation.ipynb)
