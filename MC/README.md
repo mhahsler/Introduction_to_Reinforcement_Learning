@@ -2,7 +2,7 @@
 # Chapters 5: Monte Carlo Methods
 
 ## Examples
-* [Monte Carlo prediction and control with exploring starts for the 4x3 grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/MC/4x3_grid_world_MC.ipynb).
+* Implementation of Monte Carlo ES: [Monte Carlo prediction and control with exploring starts for the 4x3 grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/MC/4x3_grid_world_MC.ipynb).
 * [Monte Carlo prediction and control with exploring starts for Gymnasium's Frozen Lake Environment](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/MC/frozen_lake_MC.ipynb).
 
 ## Exercise
