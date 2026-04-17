@@ -5,7 +5,7 @@
 * [REINFORCE: Linear Policy Approximation for the L-Maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Policy_Gradient/L_maze_policy_approximation.ipynb).
 
 ## Comparison
-* [Compare the LEarning behavior of different methods on the L-Maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Policy_Gradient/L-Maze_Comparison.ipynb)
+* [Compare the Learning behavior of different methods on the L-Maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Policy_Gradient/L-Maze_Comparison.ipynb)
 
 ## License
 &copy; 2026 [Michael Hahsler](http://michael.hahsler.net). 
