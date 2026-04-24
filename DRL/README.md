@@ -10,6 +10,9 @@
     [pytorch - Reinforcement Learning (DQN) Tutorial](https://docs.pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
 * [Lunar Lander with DRL (Baseline 3)](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQL_Example.ipynb)
 
+## Exercise
+* [Learn a to race a car](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/competition_race_car.ipynb)
+
 
 ## License
 &copy; 2026 [Michael Hahsler](http://michael.hahsler.net). 
