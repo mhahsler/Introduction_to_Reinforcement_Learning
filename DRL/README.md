@@ -6,9 +6,9 @@
 * [CleanRL](https://github.com/vwxyzjn/cleanrl)
 
 ## Examples
-* [Lunar Lander with DNQ from scratch](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQL_from_scratch_Example.ipynb) following
+* [Lunar Lander with DQN from scratch](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQN_from_scratch_Example.ipynb) following
     [pytorch - Reinforcement Learning (DQN) Tutorial](https://docs.pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
-* [Lunar Lander with DRL (Baseline 3)](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQL_Example.ipynb)
+* [Lunar Lander with DRL (Baseline 3)](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DRL_Examples.ipynb)
 
 ## Exercise
 * [Learn a to race a car](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/competition_race_car.ipynb)
