@@ -44,6 +44,10 @@ model.learn(
     #tb_log_name="DQN_run_1" # Custom name for this run in TensorBoard
 )
 
+# Note: steps are not the same as episodes. You can monitor both in TensorBoard. 
+# Steps are the total number of actions taken, while episodes are the number of 
+# complete runs through the environment.
+
 # Run TensorBoard in a new terminal to visualize training progress
 # tensorboard --logdir ./DRL_logs/tboard/
 # open the URL that it give you in your browser
