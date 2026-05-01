@@ -8,7 +8,8 @@
 ## Examples
 * [Lunar Lander with DQN from scratch](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQN_from_scratch_Example.ipynb) following
     [pytorch - Reinforcement Learning (DQN) Tutorial](https://docs.pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
-* [Lunar Lander with DRL (Baseline 3)](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DRL_Examples.ipynb)
+* [Lunar Lander with DRL (stable-baseline 3)](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DRL_Examples.ipynb)
+* Blog explaining [Lunar Lander using DQN (stable-baseline 3)](https://www.findingtheta.com/blog/solving-gymnasiums-lunar-lander-with-deep-q-learning-dqn)
 
 ## Exercise
 * [Learn a to race a car](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/competition_race_car.ipynb)
