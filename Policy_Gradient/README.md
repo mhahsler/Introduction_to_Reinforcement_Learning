@@ -2,7 +2,7 @@
 # Chapters 13: Policy Gradient Methods
 
 ## Example
-* [REINFORCE: Linear Policy Approximation for the L-Maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Policy_Gradient/L_maze_policy_approximation.ipynb).
+* [REINFORCE: Monte Carlo Control with Policy Approximation for the L-Maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Policy_Gradient/L_maze_policy_approximation_REINFORCE.ipynb).
 
 ## Comparison
 * [Compare the Learning behavior of different methods on the L-Maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Policy_Gradient/L-Maze_Comparison.ipynb)
