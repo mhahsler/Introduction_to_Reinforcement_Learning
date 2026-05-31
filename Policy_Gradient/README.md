@@ -3,8 +3,9 @@
 
 ## Example
 * [REINFORCE: Monte Carlo Control with Policy Approximation for the L-Maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Policy_Gradient/L_maze_policy_approximation_REINFORCE.ipynb).
+* [Actor-Critic: L-Maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Policy_Gradient/L_maze_policy_approximation_ActorCritic.ipynb).
 
-## Comparison
+## Comparison of All Methods on the L-Maze
 * [Compare the Learning behavior of different methods on the L-Maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Policy_Gradient/L-Maze_Comparison.ipynb)
 
 ## License
