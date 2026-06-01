@@ -33,6 +33,11 @@ model = PPO(
 )
 
 # 5. Train the Model
+
+# Run TensorBoard in a new terminal to visualize training progress
+# tensorboard --logdir ./DRL_logs/tboard/
+# open the URL that it give you in your browser
+
 model.learn(
     total_timesteps=300_000,
     callback=checkpoint_callback,
@@ -40,9 +45,7 @@ model.learn(
     #tb_log_name="DQN_run_1" # Custom name for this run in TensorBoard
 )
 
-# Run TensorBoard in a new terminal to visualize training progress
-# tensorboard --logdir ./DRL_logs/tboard/
-# open the URL that it give you in your browser
+
 
 # 6. Save final model
 model.save("ppo_final_model")

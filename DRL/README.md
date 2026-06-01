@@ -5,9 +5,12 @@
 * [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) 
 * [CleanRL](https://github.com/vwxyzjn/cleanrl)
 
-## Examples
+## Examples from Scratch
 * [Lunar Lander with DQN from scratch](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQN_from_scratch_Example.ipynb) following
     [pytorch - Reinforcement Learning (DQN) Tutorial](https://docs.pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
+
+## Examples Using Stable Baselines3
+* [The L-Maze with DQN (Stable Baselines3)](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQN-L-Maze.ipynb)
 * [Lunar Lander with DRL (Stable Baselines3)](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DRL_Examples.ipynb)
 * Blog explaining [Lunar Lander using DQN (Stable Baselines3)](https://www.findingtheta.com/blog/solving-gymnasiums-lunar-lander-with-deep-q-learning-dqn)
 

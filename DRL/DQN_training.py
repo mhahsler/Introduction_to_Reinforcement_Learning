@@ -37,12 +37,6 @@ model = DQN(
 )
 
 # 5. Train the Model
-model.learn(
-    total_timesteps=300_000,
-    callback=checkpoint_callback,
-    progress_bar=True#,
-    #tb_log_name="DQN_run_1" # Custom name for this run in TensorBoard
-)
 
 # Note: steps are not the same as episodes. You can monitor both in TensorBoard. 
 # Steps are the total number of actions taken, while episodes are the number of 
@@ -51,6 +45,14 @@ model.learn(
 # Run TensorBoard in a new terminal to visualize training progress
 # tensorboard --logdir ./DRL_logs/tboard/
 # open the URL that it give you in your browser
+
+model.learn(
+    total_timesteps=300_000,
+    callback=checkpoint_callback,
+    progress_bar=True#,
+    #tb_log_name="DQN_run_1" # Custom name for this run in TensorBoard
+)
+
 
 # 6. Save final model
 model.save("dqn_final_model")
