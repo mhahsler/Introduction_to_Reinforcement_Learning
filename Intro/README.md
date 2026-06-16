@@ -1,10 +1,13 @@
 <!-- #region -->
 # Chapter 1: Introduction
 
-## Contents
 
-* Example: [Lunar Lander Environment](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Intro/lunar_lander.ipynb): Build a simple reflex-based agent (no learning) using the Gymnasium library.
-* Assignment: [Build a better simple reflex-based agent](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Intro/assignment-lunar_lander.ipynb) Build a better simple reflex-based agent for the Lunar Lander environment.
+## Example
+* [Lunar Lander Environment](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Intro/lunar_lander.ipynb): Build a simple reflex-based agent (no learning) using the Gymnasium library.
+
+
+## Exercise
+* [Build a better simple reflex-based agent](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Intro/assignment-lunar_lander.ipynb) for the Lunar Lander environment.
 
 ## License
 &copy; 2026 [Michael Hahsler](http://michael.hahsler.net). 
