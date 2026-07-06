@@ -13,6 +13,7 @@
 ## Advanced Feature Construction
 * [Linear approximation with Fourier basis features (4x3 Gridworld).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features.ipynb)
 * [Linear approximation with Fourier basis features (L-Maze).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features_L_maze.ipynb)
+* Richard Sutton' s Tile Coding Software [tiles3.py](tiles3.py) (retrieved from [here](http://incompleteideas.net/tiles/tiles3.html)). [Code explanation](tiles2_ChatGPT.md) created with ChatGPT.
 
 ## Exercise
 * [Value Function Approximation for the Lunar Lander Problem using Tile Coding](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/assignment-lunar_lander_Approximation.ipynb)
