@@ -6,9 +6,11 @@ __pycache__
 *-solution.*
 *_sol.*
 *-sol.*
+*scratch*
 WORK_*
 
 tb_logs*
+*_logs/
 
 ~$*
 *.swp
