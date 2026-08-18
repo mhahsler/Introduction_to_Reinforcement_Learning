@@ -1,12 +1,12 @@
 <!-- #region -->
 # Common Files
 
-## Setup
+## Setup Gymnasium
 * HOWTO [Setup Gymnasium](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/common/Setup_Gymnasium.ipynb). 
-* HOWTO [Setup the patched gym-classics package](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/common/Setup_patched_gym_classics2.ipynb). 
 
-## Help
-* [Selected gym-classics help pages](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/common/gym_classics2_documentation.ipynb). 
+## gym_classics2
+* HOWTO [Setup the gym-classics2 package](https://colab.research.google.com/github/mhahsler/gym-classics2/blob/main/examples/Setup_gym_classics2.ipynb). 
+* [gym-classics help pages](https://colab.research.google.com/github/mhahsler/gym-classics2/blob/main/examples/gym_classics2_help_pages.ipynb). 
 
 ## License
 &copy; 2025 [Michael Hahsler](http://michael.hahsler.net). 
