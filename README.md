@@ -22,7 +22,7 @@ Deep Reinforcement Learning (DRL) is based on the review paper
 > _Foundations and Trends in Machine Learning,_ 11:3-4, pp 219-354. http://dx.doi.org/10.1561/2200000071, 2018.
 
 The course uses for the examples:
-* A [heavily modified version of gym-classics](https://github.com/mhahsler/gym-classics) originally by Brett Daley for mazes and model-based RL.
+* [gym-classics2](https://github.com/mhahsler/gym-classics) for mazes and model-based RL.
 * The [Gymnasium](https://github.com/farama-foundation/gymnasium) environment for model-free RL.
 * [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) for deep RL algorithms.
 
