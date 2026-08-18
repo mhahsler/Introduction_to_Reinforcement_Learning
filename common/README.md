@@ -3,10 +3,10 @@
 
 ## Setup
 * HOWTO [Setup Gymnasium](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/common/Setup_Gymnasium.ipynb). 
-* HOWTO [Setup the patched gym-classics package](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/common/Setup_patched_gym_classics.ipynb). 
+* HOWTO [Setup the patched gym-classics package](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/common/Setup_patched_gym_classics2.ipynb). 
 
 ## Help
-* [Selected gym-classics help pages](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/common/gym_classics_documentation.ipynb). 
+* [Selected gym-classics help pages](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/common/gym_classics2_documentation.ipynb). 
 
 ## License
 &copy; 2025 [Michael Hahsler](http://michael.hahsler.net). 
