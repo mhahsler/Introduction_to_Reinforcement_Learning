@@ -22,12 +22,11 @@ Deep Reinforcement Learning (DRL) is based on the review paper
 > _Foundations and Trends in Machine Learning,_ 11:3-4, pp 219-354. http://dx.doi.org/10.1561/2200000071, 2018.
 
 The course uses for the examples:
-* [gym-classics2](https://github.com/mhahsler/gym-classics) for mazes and model-based RL.
+* [gym-classics2](https://github.com/mhahsler/gym-classics2) for mazes and model-based RL.
 * The [Gymnasium](https://github.com/farama-foundation/gymnasium) environment for model-free RL.
 * [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) for deep RL algorithms.
 
-Studying the material requires
-
+Studying the material requires:
 * Python programming skills.
 * Knowledge of AI basics (how intelligent agents interact with an environment).
 * Knowledge of how to use machine learning techniques including deep learning. 
@@ -56,6 +55,7 @@ Studying the material requires
 | 11 | X: Current Applications | - | - | 
 
 ## HOWTOs
+* How to [install the needed software](common/README.md)
 * How to [debug in Jupyer Notebooks](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/debugging_in_notebooks.ipynb)
 * How to [profile Python code](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/profiling_code.ipynb) to improve runtime.
 * How to [make charts with mathplotlib and tables with pandas](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/charts_and_tables.ipynb) to compare algorithms.
