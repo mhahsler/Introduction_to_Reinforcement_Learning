@@ -6,7 +6,7 @@ Below a summary of the convergence behavior of the major algorithms classes desc
 
 | Algorithm class                                | Typical convergence story                                                                                                        |
 | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| **Tabular DP**                                 | Strongest guarantees: convergence to $v_\pi , v_*, or \pi_*$.                                                                 |
+| **Tabular DP**                                 | Strongest guarantees: convergence to $v_\pi$, $v_*$, or $\pi_*$.                                                                 |
 | **Tabular MC**                                 | Converges with infinite sampling; control requires sufficient exploration.                                                       |
 | **Tabular TD**                                 | Strong convergence guarantees with infinite visits and Robbins–Monro step sizes.                                                 |
 | **Tabular off-policy TD control**              | Q-learning still converges under standard assumptions.                                                                           |
