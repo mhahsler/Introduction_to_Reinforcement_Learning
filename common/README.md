@@ -1,69 +1,118 @@
-<!-- #region -->
-# Setup the Needed Software
+# Install the Course Environment
 
-## Setup Gymnasium
+The repository's [`environment.yml`](../environment.yml) installs the packages
+used throughout the course, including JupyterLab, Gymnasium, `gym-classics2`,
+PyTorch, Stable-Baselines3, and the visualization dependencies. This Conda-based
+setup is the recommended local installation method.
 
-The documentation for Gymnasium is available at https://gymnasium.farama.org/ 
+## Google Colab
 
-Gymnasium is already preinstalled in Google Colab!
+Colab runtimes are temporary. Install the course-specific dependencies once at
+the beginning of each new runtime, before importing them:
 
-Here are the steps for VS Code:
-1. Create a new folder and open it with VS Code and install all needed Python Extensions in VS Code.
-2. Create a new virtual environment (CTRL-Shift P Python Create Environment...)
-3. I needed to install swig and the Python C++ headers on WSL2 via the terminal
-    * `sudo apt install swig`
-    * `sudo apt-get install python3-dev` 
-4. Install python libraries for gymnasium with the needed extras
-
-In your virtual environment execute:
-```bash
-python -m pip install gymnasium[box2d,classic_control]
-```
-
-You can also add a Python code block using the magic `%`
 ```python
-%pip install swig
-%pip install gymnasium[box2d,classic_control]
+!apt-get -qq update
+!apt-get -qq install -y swig xvfb ffmpeg
+%pip install -q "gymnasium[box2d,classic-control,other]>=1.0,<2" pyvirtualdisplay
+%pip install -q "gym-classics2 @ git+https://github.com/mhahsler/gym-classics2.git"
 ```
 
-## Setup Capturing Gymnasium Environment Visualizations in Notebooks
+Restart the Colab runtime if prompted after installation. Package installations
+inside individual notebooks are otherwise unnecessary when using the local
+Conda environment.
 
-Additional installs for screen capturing so environment visualizations can be converted to embedded videos.
-This also works on Google Colab so you can see the visualization.
+More information about the custom teaching environments is available in the
+[`gym-classics2` documentation](https://mhahsler.github.io/gym-classics2/).
 
-For recording videos, I had to install on WSL2:    
-* `sudo apt-get install xvfb ffmpeg`
 
-In your virtual environment execute:
+## Local Installation with Conda
+
+Install [Git](https://git-scm.com/downloads) and a Conda distribution such as
+[Miniconda](https://docs.conda.io/projects/miniconda/en/latest/). Then clone the
+repository, or open a terminal in an existing clone:
+
 ```bash
-python -m pip install pyvirtualdisplay
-python -m pip install gymnasium[other]
+git clone https://github.com/mhahsler/Introduction_to_Reinforcement_Learning.git
+cd Introduction_to_Reinforcement_Learning
 ```
 
-## Setup `gym_classics2`
+Create and activate the environment from the repository root:
 
-The package is available on Github at https://github.com/mhahsler/gym-classics2
-
-To install it, execute in your virtual environment:
 ```bash
+conda env create --file environment.yml
+conda activate reinforcement-learning
+```
+
+In VS Code, open the repository and use **Python: Select Interpreter** or
+**Notebook: Select Notebook Kernel** to choose `reinforcement-learning`.
+
+## Video Capture on Linux and WSL
+
+The Conda environment supplies FFmpeg and the Python visualization packages.
+Headless recording with `pyvirtualdisplay` also requires the X virtual
+framebuffer on Linux or WSL:
+
+```bash
+sudo apt-get update
+sudo apt-get install xvfb
+```
+
+This operating-system package is not needed merely to run non-rendering
+examples. Native desktop windows also do not use `pyvirtualdisplay`.
+
+## Installation Without Conda
+
+Conda is preferred because it also manages SWIG and FFmpeg. If Conda is not
+available, use Python 3.12 and create a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install jupyterlab ipykernel numpy pandas scipy matplotlib tqdm
+python -m pip install "gymnasium[box2d,classic-control,other]>=1.0,<2" pyvirtualdisplay
 python -m pip install "gym-classics2 @ git+https://github.com/mhahsler/gym-classics2.git"
+python -m pip install "stable-baselines3[extra]>=2.4,<3"
 ```
 
-Colab users: To use `gym_classics2` with Colab, you need to add a code block with the following contents to
-the notebook:
+On Windows PowerShell, activate the environment with
+`.venv\Scripts\Activate.ps1`. A non-Conda installation also requires Git and
+may require system installations of SWIG, FFmpeg, and (on Linux/WSL) Xvfb.
+See the [Gymnasium environment documentation](https://gymnasium.farama.org/environments/)
+for environment-specific dependencies.
 
-```python
-%pip install "gym-classics2 @ git+https://github.com/mhahsler/gym-classics2.git"
+## Updating gym-classics2 for Hotfixes
+
+Sometimes I will fix things in the package. If I pump the version and conda will update the environment. Sometime it may
+be a fix without a version jump. To catch both do:
+
+```bash
+conda activate reinforcement-learning
+conda env update --file environment.yml --prune
+
+python -m pip install \
+  --upgrade \
+  --force-reinstall \
+  --no-deps \
+  "gym-classics2 @ git+https://github.com/mhahsler/gym-classics2.git@main"
+
+python -m pip check
 ```
 
-Run the block once, then restart the session (see pulldown next to Run). 
-`gym_classics2` is now installed for this session and you can comment out the pip install line.
 
-More detailed instructions can be found in the [package documentation](https://mhahsler.github.io/gym-classics2/)
+## Troubleshooting
+
+- If a notebook reports a missing package after installation, confirm that its
+  selected kernel is `reinforcement-learning`.
+- If video capture reports that no display is available on Linux or WSL,
+  install Xvfb as shown above and restart the kernel.
+- Keep dependency names containing extras in quotes, for example
+  `"gymnasium[box2d]"`, so shells do not interpret the brackets.
 
 ## License
-&copy; 2025 [Michael Hahsler](http://michael.hahsler.net). 
-All code and documents in this repository are provided under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License.](https://creativecommons.org/licenses/by-sa/4.0/)
+
+&copy; 2026 [Michael Hahsler](http://michael.hahsler.net).
+All code and documents in this repository are provided under the
+[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
-<!-- #endregion -->

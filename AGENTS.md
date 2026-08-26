@@ -19,6 +19,7 @@
   used by Sutton and Barto and by nearby course material.
 - Keep examples readable for students. Prefer explicit intermediate steps and
   descriptive names when they make an algorithm easier to understand.
+- Keep things short so students will not gloss over it.
 - Follow the existing style in the file being changed; the repository does not
   enforce a single formatter across all historical teaching examples.
 - Use the current Gymnasium API: `reset()` returns `(observation, info)`, and
@@ -46,6 +47,7 @@
 
 - Use `common/README.md` for the course environment and optional visualization
   dependencies. Do not commit a local virtual environment.
+- Keep the stablebasline3 dependency separate from the regular environment in environment.yml.
 - Validate in proportion to the change. For a standalone Python file, at least
   run `python -m py_compile <changed-file>` when imports are not needed.
 - For an executable notebook, use a temporary output rather than overwriting the

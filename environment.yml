@@ -1,0 +1,22 @@
+name: reinforcement-learning
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pip>=24
+  - git
+  - jupyterlab>=4.2,<5
+  - ipykernel>=6.29,<8
+  - numpy>=1.26,<3
+  - pandas>=2.2,<3
+  - scipy>=1.12,<2
+  - matplotlib>=3.8,<4
+  - tqdm>=4.66,<5
+  - ffmpeg
+  - swig
+  - pip:
+      - "gymnasium[box2d,classic-control,other]>=1.0,<2"
+      - "gym-classics2 @ git+https://github.com/mhahsler/gym-classics2.git"
+      - "pyvirtualdisplay>=3,<4"
