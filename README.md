@@ -71,5 +71,5 @@ Studying the material requires:
   <img src="assets/by-nc-sa.png" align="left" style="height:2em;float: left">
 </a>
 
-Introduction to Reinforcement Learning &copy; 2026 [Michael Hahsler](http://michael.hahsler.net) and others is licensed under 
+Introduction to Reinforcement Learning &copy; 2026 [Michael Hahsler](https://michael.hahsler.net) and others is licensed under 
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
