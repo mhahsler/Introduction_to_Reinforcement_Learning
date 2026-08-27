@@ -1,0 +1,43 @@
+name: Check Markdown links
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.md"
+      - ".github/workflows/links.yml"
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".github/workflows/links.yml"
+  schedule:
+    - cron: "17 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: links-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Check links in Markdown files
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --root-dir .
+            --verbose
+            --no-progress
+            './**/*.md'
+          fail: true
+          jobSummary: true
+          token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,87 @@
+name: Test notebooks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.ipynb"
+      - "common/**/*.py"
+      - "environment.yml"
+      - ".github/workflows/notebooks.yml"
+  pull_request:
+    paths:
+      - "**/*.ipynb"
+      - "common/**/*.py"
+      - "environment.yml"
+      - ".github/workflows/notebooks.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notebooks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    defaults:
+      run:
+        shell: bash -el {0}
+    env:
+      MPLBACKEND: Agg
+      PYTHONPATH: ${{ github.workspace }}/common
+      PYGAME_HIDE_SUPPORT_PROMPT: "1"
+      SDL_AUDIODRIVER: dummy
+      SDL_VIDEODRIVER: dummy
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Create course environment
+        uses: conda-incubator/setup-miniconda@v4
+        with:
+          activate-environment: reinforcement-learning
+          environment-file: environment.yml
+          miniforge-version: latest
+          conda-remove-defaults: "true"
+
+      - name: Validate all notebook files
+        run: |
+          python - <<'PY'
+          import subprocess
+
+          import nbformat
+
+          paths = subprocess.check_output(
+              ["git", "ls-files", "*.ipynb"], text=True
+          ).splitlines()
+          for path in paths:
+              with open(path, encoding="utf-8") as notebook_file:
+                  nbformat.validate(nbformat.read(notebook_file, as_version=4))
+              print(f"Validated {path}")
+          PY
+
+      # Assignments contain intentionally incomplete cells. DRL notebooks need
+      # long training runs or trained-model archives, so both groups are still
+      # validated above but are not executed in CI.
+      - name: Execute teaching notebooks
+        run: |
+          mapfile -t notebooks < <(
+            git ls-files '*.ipynb' |
+              grep -Ev '(^DRL/|(^|/)assignment-)'
+          )
+
+          for notebook in "${notebooks[@]}"; do
+            output_dir="/tmp/executed-notebooks/$(dirname "$notebook")"
+            mkdir -p "$output_dir"
+            echo "Executing $notebook"
+            jupyter nbconvert \
+              --to notebook \
+              --execute "$notebook" \
+              --output-dir "$output_dir" \
+              --ExecutePreprocessor.timeout=900
+          done
