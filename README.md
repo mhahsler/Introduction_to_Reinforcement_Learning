@@ -7,7 +7,7 @@
   <img src="assets/RL_book_cover.jpg" align="right" style="height:15em;float: right">
 </a>
 
-This repository contains lecture material, simple Python code examples, and assignments for the course CS 5/7329 Reinforcement Learning taught by [Michael Hahsler](https://michael.hahsler.net/) at the [Department of Computer Science at SMU](https://www.smu.edu/Lyle/Academics/Departments/CS).
+This repository contains lecture material, simple Python code examples, and assignments for the course CS 5/7329 Reinforcement Learning taught by [Michael Hahsler](https://michael.hahsler.net/) at the [Department of Computer Science at SMU](https://www.smu.edu/lyle/departments/cs).
 
 The code examples cover several chapters of the textbook 
 
@@ -19,7 +19,7 @@ Deep Reinforcement Learning (DRL) is based on the review paper
 
 > Vincent François-Lavet, Peter Henderson, Riashat Islam, Marc G. Bellemare and Joelle Pineau, 
 > [An Introduction to Deep Reinforcement Learning,](https://arxiv.org/abs/1811.12560) 
-> _Foundations and Trends in Machine Learning,_ 11:3-4, pp 219-354. http://dx.doi.org/10.1561/2200000071, 2018.
+> _Foundations and Trends in Machine Learning,_ 11:3-4, pp 219-354. https://doi.org/10.1561/2200000071, 2018.
 
 The course uses for the examples:
 * [gym-classics2](https://github.com/mhahsler/gym-classics2) for mazes and model-based RL.

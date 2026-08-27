@@ -27,8 +27,8 @@ More information about the custom teaching environments is available in the
 
 ## Local Installation with Conda
 
-Install [Git](https://git-scm.com/downloads) and a Conda distribution such as
-[Miniconda](https://docs.conda.io/projects/miniconda/en/latest/). Then clone the
+Install the Conda distribution such as
+[Miniconda](https://www.anaconda.com/docs/getting-started/installation). Then clone the
 repository, or open a terminal in an existing clone:
 
 ```bash
@@ -78,11 +78,9 @@ python -m pip install "stable-baselines3[extra]>=2.4,<3"
 On Windows PowerShell, activate the environment with
 `.venv\Scripts\Activate.ps1`. A non-Conda installation also requires Git and
 may require system installations of SWIG, FFmpeg, and (on Linux/WSL) Xvfb.
-See the [Gymnasium environment documentation](https://gymnasium.farama.org/environments/)
-for environment-specific dependencies.
 
 ## Updating gym-classics2 for Hotfixes
-
+i
 Sometimes I will fix things in the package. If I pump the version and conda will update the environment. Sometime it may
 be a fix without a version jump. To catch both do:
 
