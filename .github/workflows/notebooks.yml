@@ -52,6 +52,7 @@ jobs:
       - name: Validate all notebook files
         run: |
           python - <<'PY'
+          import os
           import subprocess
 
           import nbformat
@@ -59,10 +60,34 @@ jobs:
           paths = subprocess.check_output(
               ["git", "ls-files", "*.ipynb"], text=True
           ).splitlines()
+          failures = []
           for path in paths:
-              with open(path, encoding="utf-8") as notebook_file:
-                  nbformat.validate(nbformat.read(notebook_file, as_version=4))
-              print(f"Validated {path}")
+              try:
+                  with open(path, encoding="utf-8") as notebook_file:
+                      nbformat.validate(nbformat.read(notebook_file, as_version=4))
+                  print(f"Validated {path}")
+              except Exception as error:
+                  message = " ".join(str(error).split())
+                  if len(message) > 300:
+                      message = f"{message[:297]}..."
+                  failures.append((path, f"{type(error).__name__}: {message}"))
+                  print(f"::error file={path}::Notebook validation failed: {message}")
+
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
+              if failures:
+                  summary.write("## Failed notebook validation tests\n\n")
+                  summary.write("| Notebook | Failure |\n| --- | --- |\n")
+                  for path, message in failures:
+                      message = message.replace("|", "\\|")
+                      summary.write(f"| `{path}` | {message} |\n")
+                  summary.write("\n")
+              else:
+                  summary.write(
+                      f"## Notebook validation\n\nAll {len(paths)} notebooks are valid.\n\n"
+                  )
+
+          if failures:
+              raise SystemExit(f"{len(failures)} notebook validation test(s) failed")
           PY
 
       # Assignments contain intentionally incomplete cells. DRL notebooks need
@@ -75,13 +100,44 @@ jobs:
               grep -Ev '(^DRL/|(^|/)assignment-)'
           )
 
+          failures=()
           for notebook in "${notebooks[@]}"; do
             output_dir="/tmp/executed-notebooks/$(dirname "$notebook")"
             mkdir -p "$output_dir"
             echo "Executing $notebook"
-            jupyter nbconvert \
-              --to notebook \
-              --execute "$notebook" \
-              --output-dir "$output_dir" \
-              --ExecutePreprocessor.timeout=900
+            log_file="/tmp/executed-notebooks/nbconvert.log"
+            if jupyter nbconvert \
+                --to notebook \
+                --execute "$notebook" \
+                --output-dir "$output_dir" \
+                --ExecutePreprocessor.timeout=900 >"$log_file" 2>&1; then
+              cat "$log_file"
+            else
+              failures+=("$notebook")
+              echo "::error file=$notebook::Notebook execution failed"
+              echo "::group::Failure output for $notebook"
+              cat "$log_file"
+              echo "::endgroup::"
+            fi
           done
+
+          if ((${#failures[@]})); then
+            {
+              echo "## Failed notebook execution tests"
+              echo
+              echo "| Notebook | Failure |"
+              echo "| --- | --- |"
+              for notebook in "${failures[@]}"; do
+                printf '| `%s` | Execution failed; see the step log. |\n' "$notebook"
+              done
+              echo
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+          {
+            echo "## Notebook execution"
+            echo
+            echo "All ${#notebooks[@]} selected notebooks executed successfully."
+            echo
+          } >> "$GITHUB_STEP_SUMMARY"
