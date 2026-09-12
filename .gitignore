@@ -22,3 +22,6 @@ gymnasium_display_recorder.py
 !common/gymnasium_display_recorder.py
 tictactoe.py
 !common/tictactoe.py
+
+common/gym-classics2/
+

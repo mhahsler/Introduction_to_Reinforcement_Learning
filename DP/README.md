@@ -1,6 +1,9 @@
 <!-- #region -->
 # Chapters 4: Dynamic Programming
 
+## Policy Evaluation
+* [2-State MDP as a linear program in Excel](./LP_Policy_Evaluation.xlsx).
+
 ## Algorithm Implementation Using `gym-classic`
 * [Value Iteration and Policy Iteration for Russel and Norvig's 4x3 grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DP/4x3_grid_world.ipynb). This notebook discusses the implementation of the algorithms.
 * [Value Iteration and Policy Iteration for the L-maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DP/L-Maze.ipynb). This notebook investigates the behavior of the algorithms.
