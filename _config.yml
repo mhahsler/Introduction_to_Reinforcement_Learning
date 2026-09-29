@@ -1,3 +1,8 @@
 title: Introduction to Reinforcement Learning
 description: " "
 theme: jekyll-theme-slate
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-relative-links

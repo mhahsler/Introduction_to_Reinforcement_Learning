@@ -2,7 +2,7 @@
 
 ## Summary of Convergence by Method Family
 
-Below a summary of the convergence behavior of the major algorithms classes described in Sutton & Barto, *Reinforcement Learning: An Introduction*, 2nd ed. “Converges” is used in the theoretical sense—typically under **tabular representation, sufficient exploration, and appropriate step-size assumptions.**
+Below is a summary of the convergence behavior of the major algorithm classes described in Sutton & Barto, *Reinforcement Learning: An Introduction*, 2nd ed. “Converges” is used in the theoretical sense—typically under **tabular representation, sufficient exploration, and appropriate step-size assumptions.**
 
 | Algorithm class                                | Typical convergence story                                                                                                        |
 | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -20,7 +20,7 @@ An important distinction is that **“convergence” does not always mean conver
 
 ## Convergence by Algorithm 
 
-Below is a chapter-organized summary of the convergence behavior of the major algorithms in Sutton & Barto, *Reinforcement Learning: An Introduction*, 2nd ed. Typical general assumptions are under **tabular representation, sufficient exploration, and appropriate step-size assumptions.**
+Below is a chapter-organized summary of the convergence behavior of the major algorithms in Sutton & Barto, *Reinforcement Learning: An Introduction*, 2nd ed. Typical guarantees assume **tabular representation, sufficient exploration, and appropriate step sizes.**
 
 | Ch.                                               | Algorithm / Method                                   | Convergence behavior                                                                                                  | Main assumptions / qualifications                                                                                                                             |
 | ------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |

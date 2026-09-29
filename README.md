@@ -21,7 +21,7 @@ Deep Reinforcement Learning (DRL) is based on the review paper
 > [An Introduction to Deep Reinforcement Learning,](https://arxiv.org/abs/1811.12560) 
 > _Foundations and Trends in Machine Learning,_ 11:3-4, pp 219-354. https://doi.org/10.1561/2200000071, 2018.
 
-The course uses for the examples:
+The course uses the following tools in its examples:
 * [gym-classics2](https://github.com/mhahsler/gym-classics2) for mazes and model-based RL.
 * The [Gymnasium](https://github.com/farama-foundation/gymnasium) environment for model-free RL.
 * [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) for deep RL algorithms.
@@ -62,7 +62,7 @@ Studying the material requires:
 * How to [debug in Jupyter Notebooks](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/debugging_in_notebooks.ipynb)
 * How to [profile Python code](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/profiling_code.ipynb) to improve runtime.
 * How to [make charts with matplotlib and tables with pandas](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/charts_and_tables.ipynb) to compare algorithms.
-* How to [use random numbers and arrays in numpy.](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/random_numbers_and_arrays.ipynb)
+* How to [use random numbers and arrays in NumPy](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/HOWTOs/random_numbers_and_arrays.ipynb).
 
 
 ## License

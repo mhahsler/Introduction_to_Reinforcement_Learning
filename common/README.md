@@ -27,7 +27,7 @@ More information about the custom teaching environments is available in the
 
 ## Local Installation with Conda
 
-Install the Conda distribution such as
+Install a Conda distribution such as
 [Miniconda](https://www.anaconda.com/docs/getting-started/installation). Then clone the
 repository, or open a terminal in an existing clone:
 
@@ -80,9 +80,9 @@ On Windows PowerShell, activate the environment with
 may require system installations of SWIG, FFmpeg, and (on Linux/WSL) Xvfb.
 
 ## Updating gym-classics2 for Hotfixes
-i
-Sometimes I will fix things in the package. If I pump the version and conda will update the environment. Sometime it may
-be a fix without a version jump. To catch both do:
+
+When the package version changes, Conda can update the environment. Some fixes
+may not include a version change. To get either kind of update, run:
 
 ```bash
 conda activate reinforcement-learning

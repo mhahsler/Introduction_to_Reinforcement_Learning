@@ -1,6 +1,6 @@
-# Explanation for tile3 (ChatGPT)
+# Explanation of tiles3 (ChatGPT)
 
-This is **Rich Sutton’s tile coding implementation** for reinforcement learning. It converts continuous state variables into a small set of active discrete feature indices.
+This is **Richard Sutton’s tile coding implementation** for reinforcement learning. It converts continuous state variables into a small set of active discrete feature indices.
 
 ## Main idea
 
@@ -12,7 +12,7 @@ floats = [x_position, velocity]
 
 by placing several overlapping grids over the space. Each grid is called a **tiling**. For each tiling, the point activates exactly one tile. So if there are 8 tilings, the output is 8 active tile indices.
 
-This is useful because instead of using the raw continuous state, RL algorithms can use a sparse binary feature vector.
+This is useful because RL algorithms can use a sparse binary feature vector instead of the raw continuous state.
 
 For example:
 
