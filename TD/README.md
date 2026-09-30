@@ -4,7 +4,7 @@
 ## Examples
 * [Sarsa (and GLIE) for the Cliff Walking Environment](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/TD/Cliff_Walking_SARSA.ipynb)
 * [Q-Learning for the Cliff Walking Environment](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/TD/Cliff_Walking_QLearning.ipynb)
-* [Learning to Play Tic-Tac-Toe with Q-Learning](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/TD/tictactoe_QL.ipynb) implements a simple table-based Q-learning algorithm to play the game from scratch.
+* [An Agent that learns to Play Tic-Tac-Toe with Q-Learning](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/TD/tictactoe_QL.ipynb) implements an agent that uses the tabular Q-learning algorithm to play the game from scratch.
 
 # Connection to Chapter 17.4: Reward Engineering
 
