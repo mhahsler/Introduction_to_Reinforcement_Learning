@@ -42,18 +42,18 @@ Studying the material requires:
 | 3 | 4: Dynamic Programming | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter04.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter04.pptx) | [Code](DP)  | 
 | 4 | 5: Monte Carlo Methods | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter05.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter05.pptx) | [Code](MC) | 
 | 5 | 6: Temporal-Difference Learning | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter06.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter06.pptx) | [Code](TD) | 
-| - | 7: n-step Bootstrapping | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter07.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter07.pptx) | - | 
+| 5 | 7: n-step Bootstrapping | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter07.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter07.pptx) | - | 
 | - | 8: Planning and Learning with Tabular Methods | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter08.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter08.pptx) | - | 
 |  |  **Part II: Approximate Solution Methods** | |  | 
 | 6 | 9-10: Prediction and Control using Approximation | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter09.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter09.pptx) | [Code](Approximation) | 
-| 7 | 12: Eligibility Traces | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pptx) | [Code](Eligibility_Traces) | 
-| 8 | 13: Policy Gradient Methods | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pptx) | [Code](Policy_Gradient) |
+| 6 | 12: Eligibility Traces | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter12.pptx) | [Code](Eligibility_Traces) | 
+| 7 | 13: Policy Gradient Methods | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Chapter13.pptx) | [Code](Policy_Gradient) |
 |  |  **Comparison of Methods for Parts I and II** |  | [Code + Tables](Comparison) |
 |  |  **Part III: Looking Deeper** | |  |
-| 9 | 15.7 & DRL: Deep Reinforcement Learning | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pptx) | [Code](DRL) | 
-| - | 17.3: Partial Observability | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Partial_Observability.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Partial_Observability.pptx) | - |
+| 8 | 15.7 & DRL: Deep Reinforcement Learning | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pptx) | [Code](DRL) | 
+| 5 | 17.3: Partial Observability | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Partial_Observability.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Partial_Observability.pptx) | - |
 | - | 17.4: Reward Engineering | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Reward_Engineering.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Reward_Engineering.pptx) | [Code](TD) |
-| 10 | X: Current Applications | - | - | 
+| 9 | X: Current Applications | - | - | 
 
 
 
