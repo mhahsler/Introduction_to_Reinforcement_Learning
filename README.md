@@ -4,7 +4,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY_NC_SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 <a href="http://incompleteideas.net/book/the-book.html">
-  <img src="assets/RL_book_cover.jpg" align="right" style="height:15em;float: right">
+  <img src="assets/RL_book_cover.jpg" class="book-image">
 </a>
 
 This repository contains lecture material, simple Python code examples, and assignments for the course CS 5/7329 Reinforcement Learning taught by [Michael Hahsler](https://michael.hahsler.net/) at the [Department of Computer Science at SMU](https://www.smu.edu/lyle/departments/cs).
@@ -51,8 +51,8 @@ Studying the material requires:
 |  |  **Comparison of Methods for Parts I and II** |  | [Code + Tables](Comparison) |
 |  |  **Part III: Looking Deeper** | |  |
 | 8 | 15.7 & DRL: Deep Reinforcement Learning | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_DRL.pptx) | [Code](DRL) | 
-| 5 | 17.3: Partial Observability | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Partial_Observability.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Partial_Observability.pptx) | - |
-| - | 17.4: Reward Engineering | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Reward_Engineering.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Reward_Engineering.pptx) | [Code](TD) |
+| - | 17.3: Partial Observability | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Partial_Observability.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Partial_Observability.pptx) | - |
+| 5 | 17.4: Reward Engineering | [PDF](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Reward_Engineering.pdf), [PowerPoint](https://mhahsler.github.io/Introduction_to_Reinforcement_Learning/slides/Lecture_Reward_Engineering.pptx) | [Code](TD) |
 | 9 | X: Current Applications | - | - | 
 
 
