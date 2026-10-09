@@ -4,7 +4,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY_NC_SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 <a href="http://incompleteideas.net/book/the-book.html">
-  <img src="assets/RL_book_cover.jpg" class="book-image" style="width:169px;height:auto;border:1px solid #000;float:right;", align="right">
+  <img src="assets/RL_book_cover.jpg" class="book-image" style="width:169px;height:auto;border:1px solid #000;float:right;" align="right">
 </a>
 
 This repository contains lecture material, simple Python code examples, and assignments for the course CS 5/7329 Reinforcement Learning taught by [Michael Hahsler](https://michael.hahsler.net/) at the [Department of Computer Science at SMU](https://www.smu.edu/lyle/departments/cs).
