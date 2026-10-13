@@ -2,7 +2,7 @@
 # Chapter 6: Temporal-Difference Learning
 
 ## Examples
-* [Sarsa (and GLIE) for the Cliff Walking Environment](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/TD/Cliff_Walking_SARSA.ipynb)
+* [Sarsa (and GLIE) for the Cliff Walking Environment](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/TD/Cliff_Walking_SARSA.ipynb). See more on [schedules](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/TD/Schedules.ipynb).
 * [Q-Learning for the Cliff Walking Environment](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/TD/Cliff_Walking_QLearning.ipynb)
 * [An Agent that learns to Play Tic-Tac-Toe with Q-Learning](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/TD/tictactoe_QL.ipynb) implements an agent that uses the tabular Q-learning algorithm to play the game from scratch.
 
