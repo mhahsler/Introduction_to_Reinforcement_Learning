@@ -2,7 +2,7 @@
 # Chapter 3: Finite Markov Decision Processes
 
 ## Examples
-* [Define an MDP model for the 4x3 grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/MDP/4x3_grid_world_MDP.ipynb). This notebook defines the MDP from scratch.
+* [Defining the AIMA 4x3 grid world MDP model](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/MDP/4x3_grid_world_MDP.ipynb). This notebook defines the MDP from scratch.
 
 
 ## License

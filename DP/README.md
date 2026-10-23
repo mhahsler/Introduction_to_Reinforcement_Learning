@@ -2,7 +2,7 @@
 # Chapter 4: Dynamic Programming
 
 ## Algorithm Implementation
-* [Value Iteration and Policy Iteration for Russell and Norvig's 4x3 grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DP/4x3_grid_world.ipynb). This notebook discusses the implementation of the algorithms.
+* [Value Iteration and Policy Iteration for the AIMA 4x3 grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DP/4x3_grid_world.ipynb). This notebook discusses the implementation of the algorithms.
 * [Value Iteration and Policy Iteration for the L-maze](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DP/L-Maze.ipynb). This notebook investigates the behavior of the algorithms.
 
 ## Convergence 
