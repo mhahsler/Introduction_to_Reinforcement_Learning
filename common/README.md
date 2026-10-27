@@ -24,6 +24,16 @@ Conda environment.
 More information about the custom teaching environments is available in the
 [`gym-classics2` documentation](https://mhahsler.github.io/gym-classics2/).
 
+Importing `gym_classics2` automatically registers its environments with
+Gymnasium; no explicit registration call is needed:
+
+```python
+import gymnasium as gym
+import gym_classics2
+
+env = gym.make("ClassicGridworld-v1")
+```
+
 
 ## Local Installation with Conda
 
