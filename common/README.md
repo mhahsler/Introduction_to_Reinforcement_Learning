@@ -1,7 +1,7 @@
 # Install the Course Environment
 
 The code examples require an installation of Python 3.10 or later and packages like
-numpy, pandas, Gymnasium, `gym-classics2`. See the repository's [`environment.yml`](./environment.yml)
+numpy, pandas, Gymnasium, `gym-classics2`. See the repository's [`environment.yml`](https://github.com/mhahsler/Introduction_to_Reinforcement_Learning/blob/main/environment.yml)
 for a complete list.
 
 Deep reinforcement learning examples requires PyTorch, Stable-Baselines3.
@@ -19,7 +19,7 @@ the beginning of each new session by running a notebook cell with:
 %pip install gym-classics2
 ```
 
-To install the latest development version `gym-classics2` of run:
+To install the latest development version `gym-classics2` of run a notebook cell with:
 ```python
 %pip install -q "gym-classics2 @ git+https://github.com/mhahsler/gym-classics2.git"
 ```
@@ -33,12 +33,11 @@ following [example notebook](https://colab.research.google.com/github/mhahsler/I
 ## Local Installation with Conda
 
 This is the suggested method for Windows.
-The repository's [`environment.yml`](./environment.yml) installs the packages
-with Conda used throughout the course.
+Here are the steps:
 
 1. Install a Conda distribution such as
   [Miniconda](https://www.anaconda.com/docs/getting-started/installation).
-2. Download the repository's [`environment.yml`](./environment.yml) file.
+2. Download the repository's [`environment.yml`](https://github.com/mhahsler/Introduction_to_Reinforcement_Learning/blob/main/environment.yml) file.
 3. Create and activate the environment from a terminal (e.g., a terminal in VS Code) in the 
    directory you downloaded  `environment.yml` to.
 
@@ -54,7 +53,7 @@ In VS Code, create or open a Notebook and use **Python: Select Interpreter** or
 ## Installation Without Conda
 
 Conda is preferred because it also manages SWIG and FFmpeg. If Conda is not
-available, use Python 3.12 and create a virtual environment:
+available, use Python 3.12, create a virtual environment and use pip for installation:
 
 ```bash
 python3 -m venv .venv
@@ -76,16 +75,15 @@ may require system installations of SWIG, FFmpeg, and (on Linux/WSL) Xvfb
 
 The Conda environment supplies FFmpeg and the Python visualization packages.
 Headless recording with `pyvirtualdisplay` also requires the X virtual
-framebuffer on Linux or WSL:
+framebuffer on Linux or WSL. In the terminal run:
 
 ```bash
 sudo apt-get update
 sudo apt-get install xvfb
 ```
 
-This operating-system packages are not needed to run non-rendering
+These operating-system packages are not needed to run non-rendering
 examples.
-
 
 ## Updating gym-classics2 for Hotfixes
 
@@ -98,7 +96,7 @@ conda update --all
 Pip can do this as well.
 
 Some fixes for `gym-classics2` may not be already included in the PyPI release version. You can
-install the development version from the terminal: 
+install the development version from Github via the  (make sure to activate your virtual environment first): 
 
 ```bash
 python -m pip install "gym-classics2 @ git+https://github.com/mhahsler/gym-classics2.git"
