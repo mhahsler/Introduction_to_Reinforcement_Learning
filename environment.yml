@@ -18,5 +18,5 @@ dependencies:
   - swig
   - pip:
       - "gymnasium[box2d,classic-control,other]>=1.0,<2"
-      - "gym-classics2 @ git+https://github.com/mhahsler/gym-classics2.git"
+      - "gym-classics2"
       - "pyvirtualdisplay>=3,<4"
