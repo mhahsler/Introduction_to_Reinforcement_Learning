@@ -7,12 +7,12 @@
 * Example: [Semi-gradient Sarsa(0) control with linear function approximation using linear features for a simple grid world (no walls).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/simple_grid_world_approximation_Semi_Gradient_Sarsa.ipynb)
 
 ## Examples Where Simple Linear Features Fail
-* [Linear function approximation with linear features for the 4x3 Grid World.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/4x3_grid_world_approximation.ipynb)
 * [Linear function approximation with linear features for the L-Maze.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/L_maze_approximation.ipynb)
+* [Linear function approximation with linear features for the 4x3 Grid World.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/4x3_grid_world_approximation.ipynb)
 
 ## Advanced Feature Construction
-* [Linear function approximation with Fourier basis features (4x3 Gridworld).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features.ipynb)
 * [Linear function approximation with Fourier basis features (L-Maze).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features_L_maze.ipynb)
+* [Linear function approximation with Fourier basis features (4x3 Gridworld).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features.ipynb)
 * Richard Sutton's Tile Coding Software [tiles3.py](tiles3.py) (retrieved from [here](http://incompleteideas.net/tiles/tiles3.html)). [Code explanation](tiles3_ChatGPT.md) created with ChatGPT.
 
 ## Non-Linear Function Approximation
