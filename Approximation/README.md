@@ -1,19 +1,23 @@
 <!-- #region -->
 # Chapters 9-10: Prediction and Control Using Approximation
 
-## Introduction
+## Introduction and Prediction
 * Explanation: What is the [on-Policy State Distribution](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/4x3_grid_world_on_policy_distribution.ipynb)
 * Example: [Semi-gradient TD(0) prediction with linear function approximation using linear features for a simple grid world (no walls).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/simple_grid_world_approximation_TD0.ipynb)
-* Example: [Semi-gradient Sarsa(0) control with linear function approximation using linear features for a simple grid world (no walls).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/simple_grid_world_approximation_Semi_Gradient_Sarsa.ipynb)
+* Example: [Semi-gradient TD(0) prediction with linear function approximation using linear features and Fourier Features for the L-Maze.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/L_maze_approximation_TD0.ipynb) Note: Linear features don't work!
 
-## Examples Where Simple Linear Features Fail
-* [Linear function approximation with linear features for the L-Maze.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/L_maze_approximation.ipynb)
-* [Linear function approximation with linear features for the 4x3 Grid World.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/4x3_grid_world_approximation.ipynb)
 
-## Advanced Feature Construction
-* [Linear function approximation with Fourier basis features (L-Maze).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features_L_maze.ipynb)
-* [Linear function approximation with Fourier basis features (4x3 Gridworld).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features.ipynb)
-* Richard Sutton's Tile Coding Software [tiles3.py](tiles3.py) (retrieved from [here](http://incompleteideas.net/tiles/tiles3.html)). [Code explanation](tiles3_ChatGPT.md) created with ChatGPT.
+## Control with Linear Features
+* [Semi-gradient Sarsa(0) control with linear function approximation using linear features for a simple grid world (no walls).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/simple_grid_world_approximation_Semi_Gradient_Sarsa.ipynb)
+
+## How Control with Linear Features Fails
+* [Semi-gradient Sarsa(0) control with linear function approximation with linear features for the L-Maze.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/L_maze_approximation.ipynb) 
+* [Semi-gradient Sarsa(0) control with Linear function approximation with linear features for the 4x3 Grid World.](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/4x3_grid_world_approximation.ipynb)
+
+## Control with Feature Construction
+* [Semi-gradient Sarsa(0) control with linear function approximation with Fourier basis features (L-Maze).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features_L_maze.ipynb)
+* [Semi-gradient Sarsa(0) control with linear function approximation with Fourier basis features (4x3 Gridworld).](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Approximation/Fourier_basis_features.ipynb)
+* Tile Coding: Richard Sutton's Tile Coding Software [tiles3.py](tiles3.py) (retrieved from [here](http://incompleteideas.net/tiles/tiles3.html)). [Code explanation](tiles3_ChatGPT.md) created with ChatGPT.
 
 ## Non-Linear Function Approximation
 * See [Deep Reinforcement Learning](../DRL/)
