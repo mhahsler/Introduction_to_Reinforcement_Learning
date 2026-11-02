@@ -49,6 +49,11 @@ jobs:
           miniforge-version: latest
           conda-remove-defaults: "true"
 
+      - name: Install gym-classics2 development version from GitHub
+        run: |
+          python -m pip install --upgrade "gym-classics2 @ git+https://github.com/mhahsler/gym-classics2.git"
+          echo "Note: Notebook tests run against the gym-classics2 development version installed from GitHub." >> "$GITHUB_STEP_SUMMARY"
+
       - name: Validate all notebook files
         run: |
           python - <<'PY'
