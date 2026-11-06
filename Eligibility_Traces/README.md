@@ -1,7 +1,8 @@
 # Chapter 12: Eligibility Traces
 
 ## Examples
-* [Sarsa(lambda) control for the L-maze grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Eligibility_Traces/Fourier_basis_features_L_maze_Eligibility_Traces.ipynb).
+* [Tabular Sarsa(lambda) control for the L-maze grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Eligibility_Traces/Tabular_L_maze_Eligibility_Traces.ipynb).
+* [Semi-Gradient Sarsa(lambda) control with Fourier basis features for the L-maze grid world](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/Eligibility_Traces/Fourier_basis_features_L_maze_Eligibility_Traces.ipynb).
 
 
 ## License
