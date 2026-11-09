@@ -1,9 +1,3 @@
----
-title: "Derivation of the gradient of the log softmax policy with linear action preferences"
-output: html_document
-mathjax: true
----
-
 # Derivation of the gradient of the log softmax policy with linear action preferences
 
 See Sutton & Barto, Chapter 13.
