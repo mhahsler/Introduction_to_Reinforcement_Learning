@@ -1,13 +1,14 @@
 <!-- #region -->
 # Deep Reinforcement Learning
 
-## Framework Implementations
-* [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) 
-* [CleanRL](https://github.com/vwxyzjn/cleanrl)
 
-## Examples from Scratch
+## Example from Scratch
 * [Lunar Lander with DQN from scratch](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQN_from_scratch_Example.ipynb) following
     [PyTorch Reinforcement Learning (DQN) Tutorial](https://docs.pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
+
+## Popular DRL Implementations
+* [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) 
+* [CleanRL](https://github.com/vwxyzjn/cleanrl)
 
 ## Examples Using Stable Baselines3
 * [The L-Maze with DQN (Stable Baselines3)](https://colab.research.google.com/github/mhahsler/Introduction_to_Reinforcement_Learning/blob/master/DRL/DQN-L-Maze.ipynb)
